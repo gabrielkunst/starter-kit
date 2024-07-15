@@ -1,5 +1,5 @@
 {
-  "extends": "@budget/tsconfig/library.json",
+  "extends": "@starter/tsconfig/library.json",
   "include": [
     "index.ts"
   ]
