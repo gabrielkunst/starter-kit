@@ -9,8 +9,8 @@
   ],
   "devDependencies": {
     "@rocketseat/eslint-config": "2.2.2",
-    "eslint-plugin-simple-import-sort": "12.1.0",
-    "@starter/prettier": "*"
+    "@starter/prettier": "*",
+    "eslint-plugin-simple-import-sort": "12.1.1"
   },
   "prettier": "@starter/prettier",
   "eslintConfig": {
