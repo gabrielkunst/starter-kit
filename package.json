@@ -12,10 +12,7 @@
     "@commitlint/config-conventional": "19.2.2",
     "husky": "9.1.4",
     "lint-staged": "15.2.8",
-    "turbo": "latest",
-    "@starter/eslint-config": "*",
-    "@starter/prettier": "*",
-    "@starter/tsconfig": "*"
+    "turbo": "latest"
   },
   "engines": {
     "node": ">=18"
@@ -25,17 +22,5 @@
     "apps/*",
     "packages/*",
     "config/*"
-  ],
-  "eslintConfig": {
-    "extends": [
-      "@starter/eslint-config/library"
-    ]
-  },
-  "prettier": "@starter/prettier",
-  "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "eslint --fix --max-warnings=0",
-      "prettier --write"
-    ]
-  }
+  ]
 }
